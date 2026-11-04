@@ -1,0 +1,19 @@
+{
+  "name": "tss-case-analyst",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "validate": "agent-sdk validate --dir .",
+    "dev": "agent-sdk dev",
+    "eval": "agent-sdk eval --dir ."
+  },
+  "dependencies": {
+    "@grok/agent-sdk": "0.6.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "6.0.3"
+  }
+}
